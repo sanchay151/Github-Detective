@@ -1,0 +1,397 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+#wrapper{
+    background-color: #F6F8FF;
+    height: screen;
+    width: screen;
+    display: flex;
+    place-content: center;
+
+}
+#wrapper.dark{
+    background-color: #141D2F;
+}
+#main-box{
+    margin-top: 2.7%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 527px;
+    height: 498.33px;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.search-box{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+}
+.search-box.dark{
+    background-color: #1E2A47;
+}
+
+.info-box{
+    display:flex;
+    flex-direction: column;
+    background-color:#FEFEFE;
+    
+
+}
+#info1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.followers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#repos #follow #following{
+    display: flex;
+    flex-direction: column;
+}
+.medialink{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.m1 .m2{
+    display: flex;
+    flex-direction: column;
+}
+#website{
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+   color: #4B6A9B;
+   font-size: 26px;
+   font-weight: bold;
+   font-family: 'Space Mono';
+}
+h1.dark{
+    color: white;
+}
+#mode{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    color: #4B6A9B;
+   font-size: 13px;
+   letter-spacing: 2.5px;
+   line-height: 10.8px;
+   font-weight: bold;
+   font-family: 'Space Mono';
+   text-transform: uppercase;
+}
+#modeimage{
+    margin-left: 4px;
+    height: 20px;
+    width: 20px;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-box img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.search-box .error {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.search-box input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search-box button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Space Mono';
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: bold;
+
+}
+
+.search-box button:hover {
+    background-color: #0056b3;
+}
+
+#noResults {
+    display: none;
+    color: red;
+    margin-left: 10px;
+}
+#search-text::placeholder{
+    font-family: 'Space Mono';
+    color: #607CA7;
+}
+
+#userimage{
+    border-radius: 100%;
+    height: 90px;
+    width: 90px;
+    margin-top: 12px;
+    
+}
+#user{
+    display: flex;
+    flex-direction: column;
+
+}
+h2{
+    font-family: 'Space Mono';
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 13.3px;
+    text-transform: capitalize;
+}
+#as{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: flex-start;
+    margin-left: 0%;
+}
+#userlink{
+    font-family: 'Space Mono';
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 10.8px;
+    text-transform: capitalize;
+    color: #0079FF;
+}
+#user{
+    margin-top: 10px;
+}
+#joindate{
+    color: #4B6A9B;
+    font-family: 'Space Mono';
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 10px;
+    text-transform: capitalize;
+    margin-top: 35px;
+
+}
+#userbio{
+    color: #4B6A9B;
+    font-family: 'Space Mono';
+    font-size: 13px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#papa{
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 12px;
+}
+#papa.dark{
+    background-color: #1E2A47;
+    color: white;
+}
+#papa.da{
+    color: white;
+}
+#search-text.dark{
+    background-color: #1E2A47;
+}
+.followers.dark{
+   background-color: #141D2F;
+}
+.followers{
+     margin: 2.5%;
+     background-color: #F6F8FF;
+     border-radius: 6px;
+     height: fit-content;
+
+}
+#ai.dark{
+    color: white;
+}
+#joindate.dark{
+    color: white;
+}
+#userbio.dark{
+    color: white;
+}
+#loctext.dark{
+    color: white;
+}
+#webtext.dark{
+    color: white;
+}
+#twittertext.dark{
+    color: white;
+}
+#companytext.dark{
+    color: white;
+}
+#repotext.dark{
+    color: white;
+}
+#followtext.dark{
+    color: white;
+}
+#followingtext.dark{
+    color: white;
+}
+#reponum.dark{
+    color: white;
+}
+#follownum.dark{
+    color: white;
+}
+#followingnum.dark{
+    color: white;
+}
+
+#repos{
+    margin-top: 12px;
+    margin-left: 20px;
+    gap: 12px;
+}
+#repotext{
+    color: #4B6A9B;
+    font-family: 'Space Mono';
+    font-size: 14px;
+    line-height: 9.2px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+#followtext{
+    color: #4B6A9B;
+    font-family: 'Space Mono';
+    font-size: 14px;
+    line-height: 9.2px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+} #followingtext{
+    color: #4B6A9B;
+    font-family: 'Space Mono';
+    font-size: 14px;
+    line-height: 9.2px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+#reponum {
+    color: #2B3442;
+    font-family: 'Space Mono';
+    font-size: 17px;
+    line-height: 13.3px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+#follownum{
+    color: #2B3442;
+    font-family: 'Space Mono';
+    font-size: 17px;
+    line-height: 13.3px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+ #followingnum{
+    color: #2B3442;
+    font-family: 'Space Mono';
+    font-size: 17px;
+    line-height: 13.3px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#follow{
+    margin-top: 12px;
+    margin-left: 40px;
+    gap: 12px;
+}
+#following{
+    margin-top: 12px;
+    margin-right: 35px;
+    gap: 12px;
+}
+#location{
+    display: flex;
+    flex-direction: row;
+}
+#company{
+    display: flex;
+    flex-direction: row;
+}
+.medialink img{
+    height: 25px;
+    width: 25px;
+}
+#loctext{
+    color: #4B6A9B;
+    font-family: 'Space Mono';
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 10.8px;
+    text-transform: capitalize;
+    margin-left: 4px;
+}
+#webtext{
+    color: #4B6A9B;
+    font-family: 'Space Mono';
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 10.8px;
+    text-transform: capitalize;
+}
+#companytext{
+    color: #4B6A9B;
+    font-family: 'Space Mono';
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 10.8px;
+    text-transform: capitalize;
+    margin-left: 7px;
+}
+#twittertext{
+    color: #4B6A9B;
+    font-family: 'Space Mono';
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 10.8px;
+    text-transform: capitalize;
+    margin-left: 4px;
+}
+

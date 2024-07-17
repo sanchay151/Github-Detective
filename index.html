@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Detective</title>
+    <link rel="stylesheet" href="st.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <!-- wrapper -->
+    <div id="wrapper">
+        <!-- main box -->
+        <div id="main-box">
+            <!-- heading and mode change -->
+            <div class="heading">
+                <h1>DevDetective</h1>
+                <div id="mode"><span id="ai">Dark</span>
+                    <img id="modeimage" src="Images/moon-icon.svg">
+                </div>
+            </div>
+            <!-- search box -->
+            <div class="search-box">
+                <img src="Images/search-icon.svg">
+                <div class="error"> 
+                <input id="search-text" type="text" placeholder="Enter a Github Username...">
+                <p id="noResults">no search results</p>
+                  </div>
+                <button id="btn" type="submit">Search</button>
+            </div>
+            <!-- info box -->
+             <div id="papa">
+                <div class="infobox">
+                    <!-- user name id image wagerah -->
+                    <div id="info1">
+                        <div id="as">
+                            <img id="userimage" alt="User Image">
+                            <div id="user">
+                                <h2></h2>
+                                <a id="userlink"></a>
+                            </div>
+                        </div>
+                        
+                        <p id="joindate"></p>
+                    </div>
+                </div>
+                <!-- bio -->
+                <p id="userbio"></p>
+                <!-- repo followers and following -->
+                <div class="followers">
+                    <div id="repos">
+                        <div id="repotext">Repos</div>
+                        <div id="reponum"></div>
+                    </div>
+                    <div id="follow">
+                        <div id="followtext">Followers</div>
+                        <div id="follownum"></div>
+                    </div>
+                    <br>
+                    <div id="following">
+                        <div id="followingtext">Following</div>
+                        <div id="followingnum"></div>
+                    </div>
+                </div>
+                <!-- media links -->
+                <div class="medialink">
+                    <div class="m1">
+                        <div id="location">
+                            <img src="Images/location-icon.svg">
+                            <p id="loctext"></p>
+                        </div>
+                        <div id="twitter">
+                            <img src="Images/twitter-icon.svg">
+                            <a id="twittertext"></a>
+                        </div>
+                    </div>
+                    <div class="m2">
+                        <div id="website">
+                            <img src="Images/website-icon.svg">
+                            <p id="webtext">Not Available</p>
+                        </div>
+                        <div id="company">
+                            <img src="Images/company-icon.svg">
+                            <p id="companytext"></p>
+                        </div>
+                    </div>
+                </div>
+             </div>
+            
+        </div>
+    </div>
+    <script src="ind.js"></script>
+</body>
+</html>
